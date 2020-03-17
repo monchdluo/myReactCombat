@@ -1,0 +1,231 @@
+.main {
+  background-color: #eee;
+
+  .header {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px;
+
+    .home {
+      width: 70.5px;
+      line-height: 50px;
+
+      i {
+        font-size: 22px;
+        color: #000;
+      }
+    }
+
+    .title {
+      font-size: 18px;
+      line-height: 26px;
+      margin-right: 10px;
+    }
+
+    .right {
+      position: relative;
+      line-height: 50px;
+
+      .searchBox {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
+        text-align: center;
+        margin-top: 5px;
+
+
+        i {
+          width: 20px;
+          height: 20px;
+          font-size: 24px;
+          background-color: #fff;
+          color: #000;
+        }
+      }
+
+      .gouwuche {
+        font-size: 22px;
+        color: #000;
+      }
+    }
+  }
+
+  .nav {
+    background-image: url('../images/02.png');
+    background-repeat: no-repeat;
+    background-size: 374px 270px;
+    width: 100%;
+    height: 342.5px;
+    position: relative;
+
+    .nav-top {
+      box-sizing: border-box;
+      width: 100%;
+      height: 72.5px;
+      padding: 30px 0 0 6px;
+
+      .login {
+        width: 65px;
+        height: 34.33px;
+      }
+
+      .nav-title {
+        display: inline-block;
+        vertical-align: middle;
+        width: 124.5px;
+        height: 22px;
+        font-size: 15px;
+        color: #fff;
+        margin-left: 2px;
+      }
+    }
+
+    .nav-bottom {
+      width: 355px;
+      height: 270px;
+      background-color: #fff;
+      margin-left: 10px;
+      border-radius: 8px;
+      text-align: center;
+      overflow: hidden;
+
+      img {
+        width: 60px;
+        height: 60px;
+      }
+
+      .nav-bottom-con {
+        width: 370px * 2;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+
+        .nav-item {
+          float: left;
+          width: 88.75px;
+          height: 133px;
+
+          .nav-item-con {
+            width: 90px;
+            height: 117px;
+            padding: 18px 3px 3px;
+            box-sizing: border-box;
+
+            .item {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              margin-bottom: 22px;
+
+              img {
+                margin-bottom: 8px;
+              }
+
+              .item-title {
+                font-size: 14px;
+                font-weight: bold;
+                color: #000;
+                margin-bottom: 6px;
+              }
+
+              .nav-text {
+                font-size: 0.27rem;
+                color: #aaaaaa;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .nav-bar {
+      height: 16.8px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 30px;
+
+      span {
+        display: inline-block;
+        width: 19.6px;
+        height: 2px;
+        background-color: #ddd;
+      }
+
+      .active {
+        background-color: red;
+      }
+    }
+  }
+
+  .waterfall {
+    width: 355px;
+    overflow: hidden;
+    margin: 15px 10.1px 0;
+    display: flex;
+    justify-content: space-between;
+
+    .flow-left,
+    .flow-right {
+      width: 172.5px;
+
+      .fall-con {
+        border-radius: 8px;
+        background-color: #fff;
+        overflow: hidden;
+        margin-bottom: 10px;
+
+        img {
+          width: 172.5px;
+        }
+
+        .fall-title {
+          font-size: 15px;
+          color: #333;
+          line-height: 22px;
+          font-family: 'PingFangSC-Regular';
+          padding: 8px;
+        }
+
+        .fall-bottom {
+          display: flex;
+          justify-content: space-between;
+          padding: 8.8px 8px 12px;
+
+          .fall-text {
+            color: #7f7f7f;
+            font-size: 12px;
+          }
+
+          .fall-bottom-left {
+            display: flex;
+            align-items: center;
+
+            .touxiang {
+              width: 24px;
+              height: 24px;
+              border-radius: 50%;
+              margin-right: 4px;
+            }
+          }
+
+          .fall-bottom-right {
+            display: flex;
+            align-items: center;
+
+            .eyes {
+              width: 16px;
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
