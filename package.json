@@ -6,8 +6,12 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+<<<<<<< HEAD
     "antd-mobile": "^2.3.1",
     "axios": "^0.19.2",
+=======
+    "antd": "^4.0.2",
+>>>>>>> fdc3e67d3ebf95b0df656e413e88cb93faeb6be2
     "postcss-pxtorem": "^5.1.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
@@ -45,6 +49,11 @@
     "less-loader": "^5.0.0",
     "react-app-rewired": "^2.1.5",
     "redux-devtools-extension": "^2.13.8"
+<<<<<<< HEAD
   },
   "proxy": "http://localhost:4001"
 }
+=======
+  }
+}
+>>>>>>> fdc3e67d3ebf95b0df656e413e88cb93faeb6be2

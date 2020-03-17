@@ -5,9 +5,15 @@ const { override, fixBabelImports, addLessLoader, addDecoratorsLegacy, addWebpac
 module.exports = override(
   // 按需加载
   fixBabelImports('import', {
+<<<<<<< HEAD
     libraryName: 'antd-mobile',
     // libraryDirectory: 'es',
     style: 'css',
+=======
+    libraryName: 'antd',
+    libraryDirectory: 'es',
+    style: true,
+>>>>>>> fdc3e67d3ebf95b0df656e413e88cb93faeb6be2
   }),
   // 自定义主题
   addLessLoader({

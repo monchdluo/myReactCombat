@@ -1,4 +1,5 @@
 // 用来创建action对象工厂函数模块
+<<<<<<< HEAD
 import { reqHome, reqClassLeft } from '../aip'
 import { HOME_DATA, CLASS_LEFT } from './action-types'
 
@@ -25,3 +26,5 @@ export const getClassLeftAsync = () => {
 
   }
 }
+=======
+>>>>>>> fdc3e67d3ebf95b0df656e413e88cb93faeb6be2
